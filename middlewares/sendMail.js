@@ -414,7 +414,7 @@ export const sendForgotMail = async (subject, data) => {
   });
 
   const frontendUrl = process.env.frontendurl;
-  const resetLink=`${frontendUrl}/reset-password/${data.token}`;
+  const resetLink=`${frontendUrl}reset-password/${data.token}`;
   // console.log(resetLink);
 
   const html = `<!DOCTYPE html>
