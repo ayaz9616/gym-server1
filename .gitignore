@@ -1,0 +1,3 @@
+// filepath: d:\ultimatefile\f1\Gym-website-final\server\.gitignore
+node_modules/
+.env
